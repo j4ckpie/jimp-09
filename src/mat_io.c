@@ -10,7 +10,7 @@
 Matrix *readFromFile(char *fname) {
 	int r, c;
 	int ir, ic;
-	FILE *in =  fopen(fname, "r");
+	FILE *fin =  fopen(fname, "r");
 	Matrix *mat = NULL;
 
 	if (fin != NULL) {
